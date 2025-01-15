@@ -1,0 +1,38 @@
+.banner{
+    height: 20vh;
+    width: 99vw;
+    background-image: url(./banner.jpg);
+    background-position: center;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 30px;
+}
+.product{
+    text-align: center;
+    color: black;
+}
+.cards{
+    height: 60vh;
+    width: 99vw;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    height: 50vh;
+    width: 310px;
+    border: 1px solid black;
+}
+.image{
+    height: 20vh;
+    width: 250px;
+    border: 1px solid black;
+    margin: 25px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
