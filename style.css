@@ -7,6 +7,7 @@
     /* border: 1px solid black; */
     text-align: center;
     padding: 30px;
+    background-position: 8%;
 }
 .banner h1{
     font-size: 50px;
@@ -24,13 +25,13 @@
     justify-content: space-evenly;
 }
 .card{
-    height: 60vh;
-    width: 310px;
+    height: 55vh;
+    width: 290px;
     /* border: 1px solid black; */
 }
 .image{
-    height: 30vh;
-    width: 250px;
+    height: 24vh;
+    width: 200px;
     /* border: 1px solid black; */
     margin: 25px;
 }
@@ -71,7 +72,7 @@ img{
     width: 600px;
     /* border: 1px solid black; */
     border-radius: 10px;
-    background-image: url(./f9.jpg);
+    background-image: url(./f14.jpg);
     background-size: cover;
     background-position: 10%;
     padding: 60px;
@@ -86,7 +87,7 @@ img{
     /* border: 1px solid black; */
     border-radius: 10px;
     padding: 60px;
-    background-image: url(./f10.jpg);
+    background-image: url(./f13.jpg);
     background-size: cover;
     background-position: 10%;
     color: white;
