@@ -24,39 +24,62 @@
 </head>
 <body>
     <div class="checkouts">
-        <h1>#Check Outs</h1>
+        <h1>Your Order</h1>
     </div>
     <br>
     <br>
     <br>
     <div class="container">
         <form>
-            <div class="mb-3">
+          <div class="mb-3">
               <label for="exampleFirstName" class="form-label">First Name</label>
               <input type="firstname" class="form-control" id="exampleFirstName" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
+          </div>
+          <div class="mb-3">
               <label for="exampleLastName" class="form-label">Last Name</label>
               <input type="lastname" class="form-control" id="exampleLastName">
-            </div>
-            <div class="mb-3">
+          </div>
+          <div class="mb-3">
               <label for="exampleEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputPassword1">
-           </div>
-           <div class="mb-3">
+              <input type="email" class="form-control" id="exampleEmail">
+          </div>
+          <div class="mb-3">
                 <label for="examplePhoneNumber" class="form-label">Phone number</label>
                 <input type="phonenumber" class="form-control" id="examplePhoneNumber">
-           </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3">
-                <label for="exampleConfirmPassword" class="form-label">Confirm Password</label>
-                <input type="confirmpassword" class="form-control" id="exampleConfirmPassword">
-              </div>
-              <a class="btn btn-outline-primary" href="#" role="button">Confirm Order</a>
+          </div>
+          <div class="mb-3">
+                <label for="exampleAddress" class="form-label">Address</label>
+                <input type="address" class="form-control" id="exampleAddress">
+          </div>
+          <div class="mb-3">
+            <label for="exampleCity/Country" class="form-label">City/Country</label>
+            <input type="city/country" class="form-control" id="exampleCity/Country">
+          </div>
+          <div class="mb-3">
+            <label for="exampleProductName" class="form-label">Product Name</label>
+            <input type="productname" class="form-control" id="exampleProductName">
+          </div>
+          <h6>Product Quantity:</h6>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select the product quantity</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="2">4</option>
+            <option value="3">5</option>
+            </select>
+          <br>
+            <a class="btn btn-outline-primary" href="index.html" role="button" id="box">Submit</a>
           </form>
     </div>
 </body>
+
+<script>
+  box.addEventListener('click', () => {
+        alert('Your order is confirmed!')
+    });
+
+</script>
+
+
 </html>
