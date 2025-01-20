@@ -96,9 +96,9 @@ img{
     font-weight: 500;
 }
 
-@media only screen and (max-width : 360){
+@media(max-width : 360px){
     .banner{
-          height: 8vh;
+          height: 30vh;
           width: 99vw;
           background-image: url(./banner.jpg);
           text-align: center;
@@ -106,7 +106,23 @@ img{
           background-size: cover;
     }
     .cards{
+        display: flex !important;
         flex-direction: column;
         width: 99vw;
+    }
+    .card{
+        height: 90vh;
+        width: 350px;
+        /* border: 1px solid black; */
+    }
+    .image{
+        height: 30vh;
+        width: 200px;
+        /* border: 1px solid black; */
+        margin: 40px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
     }
 }
