@@ -1,3 +1,6 @@
+*{
+   background-color: ;
+}
 .class{
    /* border: 1px solid black; */
    width: 100vw;
@@ -5,7 +8,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: grey;
+   background-color: lightgrey;
 }
 .classes{
    /* border: 1px solid black; */
@@ -18,4 +21,186 @@
 .classes img{
    width: 180px;
    height: 143px;
+}
+.level{
+   /* border: 1px solid black; */
+   width: 99vw;
+   height: 10vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.levels{
+   /* border: 1px solid black; */
+   width: 99vw;
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.level1{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.level2{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.level3{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.levels2{
+   /* border: 1px solid black; */
+   width: 99vw;
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.level4{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.level5{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.level6{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.levels3{
+   /* border: 1px solid black; */
+   width: 99vw;
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.level7{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: white;
+}
+.height{
+   /* border: 1px solid black; */
+   width: 100vw;
+   height: 62vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 3%;
+}
+.height1{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 100%;
+}
+.height1 h4{
+   margin-left: 4%;
+   margin-top: 10%;
+   font-size: large;
+}
+.height1 p{
+   margin-left: 4%;
+   margin-top: 2%;
+}
+.height2{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 100%;
+}
+.height2 h4{
+   margin-top: 10%;
+   font-size: large;
+}
+.height2 p{
+   margin-top: 2%;
+}
+.height3{
+   /* border: 1px solid black; */
+   width: 20%;
+   height: 100%;
+}
+.height3 img{
+   margin-top: 5%;
+   height: 10%;
+   width: 40%;
+}
+.boxes{
+   /* border: 1px solid black; */
+   width: 98.9vw;
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.box{
+   /* border: 1px solid black; */
+   width: 40%;
+   height: 70%;
+   border-radius: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url(./tv\ hehe.webp);
+   background-position: center;
+   color: white;
+}
+.box1{
+   /* border: 1px solid black; */
+   width: 40%;
+   height: 70%;
+   border-radius: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url(./mobile\ phones.jpg);
+   background-position: center;
+   color: white;
 }
