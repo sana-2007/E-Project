@@ -2,12 +2,11 @@
     height: 20vh;
     width: 99vw;
     background-image: url(./banner.jpg);
-    background-position: center;
     color: white;
-    /* border: 1px solid black; */
+    background-position: center;
     text-align: center;
-    padding: 30px;
-    background-position: 8%;
+    padding-top: 20px;
+    background-size: cover;
 }
 .banner h1{
     font-size: 50px;
@@ -19,7 +18,6 @@
 .cards{
     height: 60vh;
     width: 99vw;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -96,4 +94,19 @@ img{
 }
 .uniquecards p{
     font-weight: 500;
+}
+
+@media only screen and (max-width : 360){
+    .banner{
+          height: 8vh;
+          width: 99vw;
+          background-image: url(./banner.jpg);
+          text-align: center;
+          background-position: center;
+          background-size: cover;
+    }
+    .cards{
+        flex-direction: column;
+        width: 99vw;
+    }
 }
