@@ -1,198 +1,89 @@
-*{
-   background-color:rgb(221, 221, 221) ;
-}
-.class{
+.division{
    /* border: 1px solid black; */
-   width: 100vw;
-   height: 20vh;
+   width: 99vw;
+   height: 80vh;
    display: flex;
    align-items: center;
    justify-content: center;
 }
-.classes{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 90%;
+.division1{
+   border: 1px solid black;
+   width: 40%;
+   height: 100%;
+   background-color: black;
    display: flex;
    align-items: center;
+   flex-direction: column;
    justify-content: center;
+   color: rgb(198, 5, 198);
 }
-.classes img{
-   width: 180px;
-   height: 143px;
+.division2{
+   border: 1px solid black;
+   width: 60%;
+   height: 100%;
 }
-.level{
-   /* border: 1px solid black; */
+.division2 img{
+   height: 100%;
+   width: 100%;
+}
+.text{
+   border: 1px solid black;
    width: 99vw;
    height: 10vh;
    display: flex;
    align-items: center;
    justify-content: center;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+   color: rgb(198, 5, 198);
 }
-.levels{
-   /* border: 1px solid black; */
+.divide{
+   border: 1px solid black;
    width: 99vw;
-   height: 60vh;
+   height: 70vh;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
+   background-color: black;
 }
-.level1{
-   /* border: 1px solid black; */
+.divide1{
+   border: 1px solid black;
    width: 20%;
    height: 80%;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-}
-.level2{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.level3{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.levels2{
-   /* border: 1px solid black; */
-   width: 99vw;
-   height: 60vh;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-}
-.level4{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.level5{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.level6{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.levels3{
-   /* border: 1px solid black; */
-   width: 99vw;
-   height: 60vh;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-}
-.level7{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
-.height{
-   /* border: 1px solid black; */
-   width: 100vw;
-   height: 62vh;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   margin-top: 3%;
-}
-.height1{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 100%;
-}
-.height1 h4{
-   margin-left: 4%;
-   margin-top: 10%;
-   font-size: large;
-}
-.height1 p{
-   margin-left: 4%;
-   margin-top: 2%;
-}
-.height2{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 100%;
-}
-.height2 h4{
-   margin-top: 10%;
-   font-size: large;
-}
-.height2 p{
-   margin-top: 2%;
-}
-.height3{
-   /* border: 1px solid black; */
-   width: 20%;
-   height: 100%;
-}
-.height3 img{
-   margin-top: 5%;
-   height: 10%;
-   width: 40%;
-}
-.boxes{
-   /* border: 1px solid black; */
-   width: 98.9vw;
-   height: 60vh;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-}
-.box{
-   /* border: 1px solid black; */
-   width: 40%;
-   height: 70%;
-   border-radius: 5%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   background-image: url(./tv\ hehe.webp);
-   background-position: center;
    color: white;
 }
-.box1{
-   /* border: 1px solid black; */
-   width: 40%;
-   height: 70%;
-   border-radius: 5%;
+.divide1 img{
+   width: 300px;
+   height: 300px;
+}
+.divide2{
+   border: 1px solid black;
+   width: 20%;
+   height: 80%;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   background-image: url(./mobile\ phones.jpg);
-   background-position: center;
    color: white;
+}
+.divide2 img{
+   width: 300px;
+   height: 300px;
+}
+.divide3{
+   border: 1px solid black;
+   width: 20%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+}
+.divide3 img{
+   width: 300px;
+   height: 300px;
 }
