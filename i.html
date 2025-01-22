@@ -1,90 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        .banner{
-            height: 20vh;
-            width: 99vw;
-            background-image: url(./banner.jpg);
-            color: white;
-            background-position: center;
-            text-align: center;
-            padding-top: 20px;
-            background-size: cover;
-        }
-        .product{
-            text-align: center;
-            color: rgb(136, 135, 135);
-            margin-top: 10px;
-        }
-        .cards{
-            height: 60vh;
-            width: 99vw;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            background-color: rgb(221, 221, 221);
-        }
-        .card{
-            height: 55vh;
-            width: 300px;
-        }
-        .image{
-            height: 25vh;
-            width: 200px;
-        }
-        img{
-            height: 100%;
-            width: 100%;
-        }
-        @media only screen and (max-width : 360){
-            .banner{
-                height: 8vh;
-                width: 99vw;
-                background-image: url(./banner.jpg);
-                text-align: center;
-                background-position: center;
-                background-size: cover;
-            }
-            .cards{
-                flex-direction: column;
-            }
-            .card{
-                height: 20vh;
-                width: 150px;
-            }
-            .image{
-                height: 10vh;
-                width: 100px;
-            }
-            img{
-                height: 100%;
-                width: 100%;
-            }
-        }
-    </style>
 </head>
+
 <body>
+
+    <br>
+    <!-- banner -->
     <div class="banner">
         <h1>SHOP</h1>
-        <p>Start exploring cutting-edge electronics today. Don't miss out on our exclusive offers!</p>
+        <p>Start exploring cutting-edge electronics today. Dont miss out on our exclusive offers!</p>
     </div>
+    <br>
+
+    <!-- product -->
     <div class="product">
         <h1>FEATURED PRODUCTS</h1>
         <hr>
     </div>
+    <div class="heading">
+        <h1>SAMSUNG</h1>
+    </div>
     <div class="cards">
         <div class="card">
             <div class="image">
-                <img src="./f1.jpg" alt="Tablet - 32GB">
+                <img src="./f1.jpg" alt="#">
             </div>
             <div class="text">
                 <h4>Tablet - 32GB</h4>
@@ -102,11 +52,278 @@
             </div>
             <div class="cart">
                 <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div> 
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f2.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>SAMSUNG</h4>
+                <p>Samsung Galaxy S22 Ultra Smartphone.</p>
+            </div>
+            <div class="price">
+                $199.88
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery1.html" role="button">See Options</a>
             </div>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+            <div class="image">
+                <img src="./f3.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Apple</h4>
+                <p>Wireless Ear Buds+Lightning Charging;..</p>
+            </div>
+            <div class="price">
+                $159.99
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery2.html" role="button">See Options</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f4.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>iPhone 15 pro max</h4>
+                <p>Temden Design, Protective cover.</p>
+            </div>
+            <div class="price">
+                $36.95
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="./f5.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Cieling Fan</h4>
+                <p>Modern Reversible DC Motor..</p>
+            </div>
+            <div class="price">
+                $89.00
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery3.html" role="button">See Options</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f6.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Refrigerator</h4>
+                <p>Refrigerator-Adjustable Thermostat.</p>
+            </div>
+            <div class="price">
+                $147.87
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f7.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Washing Machine</h4>
+                <p>Small Portable Washing Machine.</p>
+            </div>
+            <div class="price">
+                $239.99
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery6.html" role="button">See Options</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f8.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Air Conditioner(AC)</h4>
+                <p>Wall Air Conditioner-Energy Saving</p>
+            </div>
+            <div class="price">
+                $137.14
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="./f9.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Headphones</h4>
+                <p>Wirelress Bluetooth-Heaphones</p>
+            </div>
+            <div class="price">
+                $24.95
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f10.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Water dispenser</h4>
+                <p>High Efficiency $ Cold Water Dispensing.</p>
+            </div>
+            <div class="price">
+                $169.99
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-primary" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f11.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Gaming Laptops</h4>
+                <p>144Hz FHD Gaming Laptop.</p>
+            </div>
+            <div class="price">
+                $749.97
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery4.html" role="button">See Options</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./f12.jpg" alt="#">
+            </div>
+            <div class="text">
+                <h4>Gaming Monitors</h4>
+                <p>KTS 24 inch Gaming Monitor</p>
+            </div>
+            <div class="price">
+                $109.99
+            </div>
+            <div class="icon">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="cart">
+                <a class="btn btn-outline-success" href="gallery7.html" role="button">See Options</a>
+            </div>
+        </div>
+    </div>
+    <!-- banners -->
+    <div class="banners">
+        <div class="uniquecard">
+           <div class="texts">
+            <h1>20% Off On Laptops</h1>
+            <p>Products On Sale For Limited Time Only.</p>
+           </div>
+            <div class="button">
+                <a class="btn btn-success" href="cart.html" role="button">Add to Cart</a>
+            </div>
+        </div>
+        <div class="uniquecards">
+            <div class="texts">
+                <h1>New Collection Of Watches</h1>
+                <p>Get Your Best Products.</p>
+               </div>
+                <div class="button">
+                    <a class="btn btn-success" href="cart.html" role="button">Add to Cart</a>
+                </div>
+        </div>
     </div>
 </body>
 </html>
+
+

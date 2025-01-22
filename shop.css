@@ -1,0 +1,74 @@
+.shop{
+    background-color: black;
+}
+.heading{
+    height: max-content;
+    width: 100vw;
+    text-align: center;
+}
+.heading h1{
+    color: purple;
+}.heading h2{
+    color: white;
+}
+.boxes{
+    height: 60vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 55vh;
+    width: 360px;
+    border: 1px solid white;
+}
+.text{
+    height: 8vh;
+    width: 360px;
+    text-align: center;
+}
+.text h1{
+    color: white;
+}
+.text pre{
+    color: purple;
+    font-weight: 890;
+    font-size: 20px;
+}
+.image{
+    margin: 13px;
+    height: 37vh;
+    width: 335px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.buttons{
+    height: 5vh;
+    width: 360px;
+    display: flex;
+}
+.link{
+    width: 260px;
+    padding: 5px;
+    font-size: 18px;
+}
+.link a{
+    text-decoration: none;
+    color: purple;
+}
+.link a:hover{
+    color: rgb(179, 67, 179);
+}
+.links{
+    font-size: 18px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: rgb(204, 202, 202);
+}
