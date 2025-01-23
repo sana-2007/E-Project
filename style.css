@@ -1,43 +1,125 @@
 .shop{
     background-color: black;
 }
-.heading{
-    padding-top: 10px;
+.product{
     text-align: center;
-    color: purple;
-    font-weight: 1000px;
-}
-.container{
-    height: 60vh;
-    width: 100vw;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.box{
-    height: 60vh;
-    width: 700px;
-    border: 1px solid white;
-}
-.text{
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    color: purple;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .cards{
-    height: 60vh;
-    width: 100vw;
-    display: flex; 
+    height: 50vh;
+    width: 99vw;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 .card{
-    height: 60vh;
-    width: 360px;
+    height: 45vh;
+    width: 300px;
+    background-color: black !important;
+}
+.text{
+    text-align: center;
+    color: white;
 }
 .image{
-    margin: 10px;
     height: 20vh;
-    width: 250px;
+    width: 200px;
+    margin: 40px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.price{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.cart{
+    height: 5vh;
+    width: 360px;
+    display: flex;
+}
+.link{
+    width: 210px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.link a{
+    text-decoration: none;
+    color: purple;
+}
+.link a:hover{
+    color: rgb(179, 67, 179);
+}
+.links{
+    font-size: 18px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: rgb(204, 202, 202);
+}
+
+.banners{
+    height: 60vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.uniquecard{
+    height: 40vh;
+    width: 600px;
+    border-radius: 10px;
+    background-image: url(./clastr-cloud-gaming-5IB2fQHVvm4-unsplash.jpg);
+    background-size: cover;
+    background-position: 10%;
+    padding: 60px;
+    color: white;
+}
+.uniquecard p{
+    font-weight: 500;
+}
+.uniquecards{
+    height: 40vh;
+    width: 600px;
+    border-radius: 10px;
+    padding: 60px;
+    background-image: url(./f24.webp);
+    background-size: cover;
+    background-position: 10%;
+    color: white;
+}
+.uniquecards p{
+    font-weight: 500;
+}
+@media(max-width : 360px){
+    .cards{
+        display: flex !important;
+        flex-direction: column;
+        width: 99vw;
+    }
+    .card{
+        height: 90vh;
+        width: 350px;
+    }
+    .image{
+        height: 30vh;
+        width: 200px;
+        margin: 40px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
 }
