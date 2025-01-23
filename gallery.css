@@ -5,7 +5,7 @@ box-sizing: border-box;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 overflow-x: hidden;
 background-color: black;
-color: rgb(148, 22, 211);
+color: rgb(232, 227, 235);
 }
 .container{
     display: flex;
@@ -26,6 +26,13 @@ padding-bottom: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid #222;
     text-align: center;
+}
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    color: purple;
+    
+
 }
 .container .box{
     display: flex;
