@@ -186,6 +186,13 @@ img{
     }
 }
 @media(max-width : 768px){
+    .card{
+        height: 50vh;
+    }
+    .image{
+        height: 30vh;
+        width: 90px;
+    }
 
 }
 @media(max-width : 1366px){
