@@ -21,7 +21,7 @@
     justify-content: space-evenly;
 }
 .card{
-    height: 45vh;
+    height: 40vh;
     width: 300px;
     background-color: black !important;
 }
@@ -71,7 +71,6 @@ img{
 .links a:hover{
     color: rgb(204, 202, 202);
 }
-
 .banners{
     height: 60vh;
     width: 99vw;
@@ -94,8 +93,7 @@ img{
 }
 .uniquecards{
     height: 40vh;
-    width: 600px;
-    border-radius: 10px;
+    width: 600px;  
     padding: 60px;
     background-image: url(./watch.jpg);
     background-size: cover;
@@ -110,10 +108,14 @@ img{
         display: flex !important;
         flex-direction: column;
         width: 99vw;
+        height: 290vh;
     }
     .card{
         height: 90vh;
-        width: 350px;
+        width: 320px;
+    }
+    .text{
+        font-size: 30px;
     }
     .image{
         height: 30vh;
@@ -123,5 +125,81 @@ img{
     img{
         height: 100%;
         width: 100%;
+    }
+    .banners{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .uniquecard{
+        width: 350px;
+        padding: 15px;
+        height: 40vh;
+        margin-top: 30px;
+    }
+    .uniquecards{
+        width: 350px;
+        padding: 15px;
+        height: 40vh;
+        margin-top: 50px;
+    }
+}
+@media(max-width : 375px){
+    .cards{
+        display: flex !important;
+        flex-direction: column;
+        width: 99vw;
+        height: 290vh;
+    }
+    .card{
+        height: 90vh;
+        width: 320px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .image{
+        height: 30vh;
+        width: 200px;
+        margin: 40px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .banners{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .uniquecard{
+        width: 350px;
+        padding: 15px;
+        height: 40vh;
+        margin-top: 30px;
+    }
+    .uniquecards{
+        width: 350px;
+        padding: 15px;
+        height: 40vh;
+        margin-top: 50px;
+    }
+}
+@media(max-width : 768px){
+
+}
+@media(max-width : 1366px){
+    .card{
+        padding-top: 10px;
+    }
+    .heading{
+        padding-top: 90px;
+    }
+    .price{
+        padding-top: 40px;
+    }
+    .product{
+        font-size: 100px;
+        font-weight: bold;
     }
 }

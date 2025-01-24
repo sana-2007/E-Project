@@ -13,11 +13,21 @@
         .checkouts{
             text-align: center;
             padding-top: 60px;
-            background-image: url(./banner.jpg);
-            height: 20vh;
+            height: 4vh;
             width: 99vw;
             background-position: center;
             color: white;
+        }
+        .checkout{
+          background-color: black;
+          color: white;
+        }
+        .container{
+          background-color: black;
+          height: 85vh;
+        }
+        .checkout input{
+          background-color: rgb(43, 42, 42);
         }
     </style>
 </head>
@@ -28,7 +38,8 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="checkout">
+      <div class="container">
         <form>
           <div class="mb-3">
               <label for="exampleFirstName" class="form-label">First Name</label>
@@ -59,7 +70,7 @@
             <input type="productname" class="form-control" id="exampleProductName">
           </div>
           <h6>Product Quantity:</h6>
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" aria-label="Default select example" style="background-color: black; color: white;">
             <option selected>Select the product quantity</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -68,8 +79,9 @@
             <option value="3">5</option>
             </select>
           <br>
-            <a class="btn btn-outline-primary" href="index.html" role="button" id="box">Submit</a>
+            <a class="btn btn-outline-dark" href="index.html" role="button" id="box">Submit</a>
           </form>
+      </div>    
     </div>
 </body>
 
