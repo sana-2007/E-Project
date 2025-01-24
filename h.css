@@ -204,6 +204,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 }
 .footer4{
    border: 1px solid black;
