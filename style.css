@@ -105,7 +105,7 @@ img{
 }
 @media(max-width : 360px){
     .cards{
-        display: flex !important;
+        display: flex ;
         flex-direction: column;
         width: 99vw;
         height: 290vh;
@@ -127,7 +127,6 @@ img{
         width: 100%;
     }
     .banners{
-        display: flex;
         flex-direction: column;
         height: 70vh;
     }
@@ -146,7 +145,6 @@ img{
 }
 @media(max-width : 375px){
     .cards{
-        display: flex !important;
         flex-direction: column;
         width: 99vw;
         height: 290vh;
@@ -168,7 +166,6 @@ img{
         width: 100%;
     }
     .banners{
-        display: flex;
         flex-direction: column;
         height: 70vh;
     }
@@ -186,10 +183,22 @@ img{
     }
 }
 @media(max-width : 768px){
-    .cards{
+    .card{
+        width: 200px;
+        height: 60vh;
+    }
+    .image{
+        width: 110px;
+        height: 45vh;
+    }
+    .text{
+        padding-top: 0%;
+    }
+    .cart{
+        width: 120px;
         display: flex;
-        flex-wrap: wrap;
-        height: 140vh;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media(max-width : 1366px){
