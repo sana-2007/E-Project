@@ -156,3 +156,44 @@ body {
         font-size: 1em;
     }
 }
+
+
+
+/* @media (max-width: 360px) {
+    .row, .eyes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content img, .vision img {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .title h1 {
+        font-size: 2.5em;
+    }
+
+    .title p {
+        font-size: 1.1em;
+    }
+
+    .Harvel h2 {
+        font-size: 2.2em;
+    }
+
+    .content h1, .vision h1 {
+        font-size: 1.8em;
+    }
+
+    .content p, .vision p {
+        font-size: 1em;
+    }
+}
+ */
+
+

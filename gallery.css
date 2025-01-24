@@ -65,3 +65,28 @@ padding-bottom: 15px;
     font-weight: bolder;
     letter-spacing: 2px;
 }
+
+
+/* RESPONSIVE MEDIA */
+
+@media only screen and (max-width: 768px){
+    .container .box{
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+}
+.container .box .sparkle{
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+}
+@media only screen and (max-width: 642px){
+    .container .heading{
+        width: 100%;
+       
+    }
+    .container .heading h3{
+        font-size: 2em;
+    }
+}
