@@ -111,14 +111,14 @@ img{
         height: 290vh;
     }
     .card{
-        height: 90vh;
+        height: 40vh;
         width: 320px;
     }
     .text{
         font-size: 30px;
     }
     .image{
-        height: 30vh;
+        height: 10vh;
         width: 200px;
         margin: 40px;
     }
@@ -185,11 +185,11 @@ img{
 @media(max-width : 768px){
     .card{
         width: 200px;
-        height: 60vh;
+        height: 55vh;
     }
     .image{
         width: 110px;
-        height: 45vh;
+        height: 20vh;
     }
     .text{
         padding-top: 0%;
