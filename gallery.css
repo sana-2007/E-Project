@@ -1,0 +1,92 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+overflow-x: hidden;
+background-color: black;
+color: rgb(232, 227, 235);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+ .container .heading{
+width: 40%;
+padding-bottom: 15px;
+
+} 
+.container .heading h2{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #222;
+    text-align: center;
+}
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    color: purple;
+    
+
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+     /* width: 1890px;
+    height: auto;  */
+}
+.container .box .sparkle{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .sparkle img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.container .button{
+    margin: 40px 0 70px 0;
+    background: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.container .button a{
+    color: blueviolet;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+/* RESPONSIVE MEDIA */
+
+@media only screen and (max-width: 768px){
+    .container .box{
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+}
+.container .box .sparkle{
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+}
+@media only screen and (max-width: 642px){
+    .container .heading{
+        width: 100%;
+       
+    }
+    .container .heading h3{
+        font-size: 2em;
+    }
+}
