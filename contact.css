@@ -60,6 +60,56 @@ input[type="text"] {
     width: 20%;
     margin-left: 3%;
 }
+.footer{
+    border: 1px solid black;
+    width: 99vw;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer1{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer2{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer3{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer4{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer4 img{
+    margin-top: 2%;
+    height: 10%;
+    width: 35%;
+ }
 /* Media queries for responsiveness */
 @media (max-width: 480px) {
     .contact {
