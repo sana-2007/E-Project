@@ -71,6 +71,56 @@
         .btn:hover{
             color: rgb(209, 99, 209) !important;
         } 
+        .footer{
+    border: 1px solid black;
+    width: 99vw;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer1{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer2{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer3{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer4{
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .footer4 img{
+    margin-top: 2%;
+    height: 10%;
+    width: 35%;
+ }
         @media(max-width : 360px){
             .detail{
                 flex-direction: column;
@@ -138,6 +188,39 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(198, 5, 198);">HARVEL Electronics</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./about-us.html">About</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./gallery.html">Gallery</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
     <div class="detail">
         <div class="pic">
             <div class="image">
@@ -181,6 +264,46 @@
             they are water-resistant (IPX4) and support both wired and wireless charging.</p>
         </div>
     </div>
+    <div class="footer">
+        <div class="footer1">
+          <h4 style="color: rgb(198, 5, 198);">HARVEL Electronics</h4>
+          <br>
+           <p style="color: white;">Contact Us</p>
+           <p style="color: white;">Call Us : 03367290123</p>
+           <p style="color: white;">Our Branches :</p>
+           <p style="color: white;">Johar Branch </p> 
+           <p style="color: white;">Safoora Branch </p> 
+           <p style="color: white;">Follow Us</p> 
+        </div>
+        <div class="footer2">
+          <h4 style="color: rgb(198, 5, 198);">About Us</h4>
+          <br>
+          <p style="color: white;">About Us</p>
+          <p style="color: white;">Delivery Information</p>
+          <p style="color: white;">Privacy Policy</p>
+          <p style="color: white;">Terms & Conditions</p>
+        </div>
+        <div class="footer3">
+          <h4 style="color: rgb(198, 5, 198);">My Account</h4>
+          <br>
+          <p style="color: white;">Sign In</p>
+          <p style="color: white;">View Cart</p>
+          <p style="color: white;">Track My Order</p>
+          <p style="color: white;">Help</p>
+    
+        </div>
+        <div class="footer4">
+          <h4 style="color: rgb(198, 5, 198);">Install App</h4>
+          <br>
+          <p style="color: white;">Install Our App On Play Store & App Store</p>
+          <img src="./app.png" alt="">
+          <img src="./play.png" alt="">
+        </div>
+      </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </html>
+</div>
 
 </body>
 </html>
