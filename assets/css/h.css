@@ -163,7 +163,7 @@
    border: 1px solid black;
    width: 99vw;
    height: 60vh;
-   background-image: url('./purple.jpg');
+   background-image: url('../img/purple.jpg') !important;
    background-position: center;
    display: flex;
    align-items: center;

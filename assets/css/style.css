@@ -82,7 +82,7 @@ img{
     height: 40vh;
     width: 600px;
     border-radius: 10px;
-    background-image: url(./clastr-cloud-gaming-5IB2fQHVvm4-unsplash.jpg);
+    background-image: url('../img/clastr-cloud-gaming-5IB2fQHVvm4-unsplash.jpg') !important;
     background-size: cover;
     background-position: 10%;
     padding: 60px;
@@ -95,7 +95,7 @@ img{
     height: 40vh;
     width: 600px;  
     padding: 60px;
-    background-image: url(./watch.jpg);
+    background-image: url('../img/watch.jpg') !important;
     background-size: cover;
     background-position: 10%;
     color: white;
@@ -261,5 +261,19 @@ img{
     .product{
         font-size: 100px;
         font-weight: bold;
+    }
+}
+@media(max-width : 480px){
+    .footer{
+       flex-direction: column;
+       height: auto;
+    }
+    .footer1, .footer2, .footer3, .footer4{
+       width: 100%;
+       height: auto;
+    }
+    .footer4 img{
+       width: 50%;
+       height: auto;
     }
 }

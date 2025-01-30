@@ -208,6 +208,20 @@ body{
     }
 }
 
+@media(max-width : 480px){
+    .footer{
+       flex-direction: column;
+       height: auto;
+    }
+    .footer1, .footer2, .footer3, .footer4{
+       width: 100%;
+       height: auto;
+    }
+    .footer4 img{
+       width: 50%;
+       height: auto;
+    }
+}
 
 
 /* @media (max-width: 360px) {
